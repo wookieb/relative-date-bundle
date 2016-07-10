@@ -4,6 +4,8 @@ services:
     public: false
     arguments:
       - @relative_time_bundle.formatter
+    tags:
+      - { name: twig.extension }
 
   relative_time_bundle.time_ago_calculator.full:
     class: Wookieb\DateDiffCalculator
