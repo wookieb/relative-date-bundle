@@ -9,6 +9,11 @@
 	  "email": "lukasz.kuzynski@gmail.com"
 	}
   ],
+  "autoload": {
+	"psr-4": {
+	  "Wookieb\\RelativeTimeBundle\\": "."
+	}
+  },
   "minimum-stability": "stable",
   "require": {
 	"symfony/framework-bundle": "2.*||3.*",

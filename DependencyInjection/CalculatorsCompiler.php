@@ -1,12 +1,13 @@
 <?php
 
-namespace Wookieb\RelativeTimeBundle\Compiler;
+namespace Wookieb\RelativeTimeBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 
-class CalculatorsCompiler implements CompilerPassInterface
+class
+CalculatorsCompiler implements CompilerPassInterface
 {
     public function process(ContainerBuilder $container)
     {

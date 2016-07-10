@@ -5,7 +5,7 @@ namespace Wookieb\RelativeTimeBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use Wookieb\RelativeTimeBundle\Compiler\CalculatorsCompiler;
+use Wookieb\RelativeTimeBundle\DependencyInjection\CalculatorsCompiler;
 
 class RelativeTimeBundle extends Bundle
 {
