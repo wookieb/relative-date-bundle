@@ -1,0 +1,19 @@
+{
+  "name": "wookieb/relative-date-bundle",
+  "description": "Adds twig extension for computing human readable relative date using \"relative-date\" library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Łukasz Kużyński 'wookieb'",
+	  "email": "lukasz.kuzynski@gmail.com"
+	}
+  ],
+  "minimum-stability": "stable",
+  "require": {
+	"symfony/framework-bundle": "2.*||3.*",
+	"twig/twig": "1.*",
+	"symfony/options-resolver": "2.*||3.*",
+	"wookieb/relative-date": "dev-master"
+  }
+}

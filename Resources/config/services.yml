@@ -1,0 +1,33 @@
+services:
+  relative_time_bundle.twig:
+    class: Wookieb\RelativeTimeBundle\TwigExtension
+    public: false
+    arguments:
+      - @relative_time_bundle.formatter
+
+  relative_time_bundle.time_ago_calculator.full:
+    class: Wookieb\DateDiffCalculator
+    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'full']
+    public: false
+    tags:
+      - { name: relative_date.calculator, alias: 'full' }
+
+  relative_time_bundle.time_ago_calculator.up_to_2_weeks:
+    class: Wookieb\DateDiffCalculator
+    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'upTo2Weeks']
+    public: false
+    tags:
+      - { name: relative_date.calculator, alias: 'upTo2Weeks' }
+
+  relative_time_bundle.time_ago_calculator.up_to_2_days:
+    class: Wookieb\DateDiffCalculator
+    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'upTo2Days']
+    public: false
+    tags:
+      - { name: relative_date.calculator, alias: 'upTo2Days' }
+
+  relative_time_bundle.formatter:
+    class: Wookieb\Formatters\TranslatorFormatter
+    public: false
+    arguments:
+      - @translator
