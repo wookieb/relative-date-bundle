@@ -1,0 +1,8 @@
+"[X] seconds ago": "]0, 10]parę sekund temu|%count sekund temu"
+"[X] minutes ago": "minutę temu|%count minuty temu|%count minut temu"
+"[X] hours ago": "godzinę temu|%count godziny temu|%count godzin temu"
+"[X] days ago": "wczoraj|{2} przedwczoraj|%count dni temu"
+"[X] weeks ago": "tydzień temu|%count tygodnie temu|%count tygodni temu"
+"[X] months ago": "miesiąc temu|%count miesiące temu|%count miesięcy temu"
+"yesterday": "wczoraj"
+"[X] years ago": "rok temu|%count lata temu|%count lat temu"

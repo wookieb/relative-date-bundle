@@ -4,7 +4,6 @@ namespace Wookieb\RelativeTimeBundle;
 
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\Translation\TranslatorInterface;
 use Wookieb\DateDiffCalculator;
 use Wookieb\Formatters\TranslatorFormatter;
 
