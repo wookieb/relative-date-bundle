@@ -5,10 +5,10 @@ namespace Translations;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\Translation\TranslatorInterface;
-use Wookieb\Conditions\Results;
-use Wookieb\DateDiffRequest;
-use Wookieb\DateDiffResult;
-use Wookieb\Formatters\TranslatorFormatter;
+use Wookieb\RelativeDate\DateDiffRequest;
+use Wookieb\RelativeDate\DateDiffResult;
+use Wookieb\RelativeDate\Formatters\TranslatorFormatter;
+use Wookieb\RelativeDate\Rules\Results;
 
 class PolishTest extends AbstractTranslationTest
 {

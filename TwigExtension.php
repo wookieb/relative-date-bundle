@@ -4,8 +4,8 @@ namespace Wookieb\RelativeTimeBundle;
 
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Wookieb\DateDiffCalculator;
-use Wookieb\Formatters\TranslatorFormatter;
+use Wookieb\RelativeDate\DateDiffCalculator;
+use Wookieb\RelativeDate\Formatters\TranslatorFormatter;
 
 class TwigExtension extends \Twig_Extension
 {
