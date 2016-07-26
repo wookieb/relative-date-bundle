@@ -9,21 +9,21 @@ services:
 
   relative_time_bundle.time_ago_calculator.full:
     class: Wookieb\RelativeDate\DateDiffCalculator
-    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'full']
+    factory: [Wookieb\RelativeDate\Calculators\TimeAgoDateDiffCalculator, 'full']
     public: false
     tags:
       - { name: relative_date.calculator, alias: 'full' }
 
   relative_time_bundle.time_ago_calculator.up_to_2_weeks:
     class: Wookieb\RelativeDate\DateDiffCalculator
-    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'upTo2Weeks']
+    factory: [Wookieb\RelativeDate\Calculators\TimeAgoDateDiffCalculator, 'upTo2Weeks']
     public: false
     tags:
       - { name: relative_date.calculator, alias: 'upTo2Weeks' }
 
   relative_time_bundle.time_ago_calculator.up_to_2_days:
     class: Wookieb\RelativeDate\DateDiffCalculator
-    factory: [Wookieb\Calculators\TimeAgoDateDiffCalculator, 'upTo2Days']
+    factory: [Wookieb\RelativeDate\Calculators\TimeAgoDateDiffCalculator, 'upTo2Days']
     public: false
     tags:
       - { name: relative_date.calculator, alias: 'upTo2Days' }
